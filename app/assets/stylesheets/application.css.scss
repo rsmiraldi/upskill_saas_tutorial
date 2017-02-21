@@ -21,7 +21,7 @@ h1, h2, h3 {
     font-family: "Open Sans", sans-serif;
 }
 .navbar, .home-callout {
-  //Gradient provided by: A little thing by @_ighosh @ UIgradients.com
+  /*Gradient provided by: A little thing by @_ighosh @ UIgradients.com
   background: #00d2ff; /* fallback for old browsers */
   background: -webkit-gradient(linear, 0 0, 100% 0, from(#00d2ff), to(#928DAB));
   background: -webkit-linear-gradient(to left, #00d2ff, #928DAB);
@@ -31,6 +31,20 @@ h1, h2, h3 {
 }
 .navbar {
   border: none;
+}
+.navbar-default .navbar-brand {
+  color: white;
+}
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+.navbar-default .navbar-brand:hover {
+  color: white;
+  opacity: 0.75;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color: white;
+  opacity: 0.75;
 }
 .home-callout {
   color:white;
